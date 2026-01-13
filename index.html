@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARS - Spacega ush kelibsiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-nav">
+                <h1>MARS<sup>o</sup></h1>
+            </div>
+            <div class="nav-links">
+                <a href="#">Bosh sahifa</a>
+                <a href="#">Haqida</a>
+                <a href="#">Aloqa</a>
+            </div>
+            <div class="language-selector">
+                <button class="lang-btn" id="langBtn">O'zbek</button>
+                <div class="dropdown" id="dropdown">
+                    <a href="#" data-lang="uz">O'zbek</a>
+                    <a href="#" data-lang="en">English</a>
+                    <a href="#" data-lang="ru">Русский</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <main class="main-content">
+            <div class="login-card">
+                <div class="card-header">
+                    <h2>Spacega ush kelibsiz</h2>
+                </div>
+                <form class="login-form">
+                    <div class="input-group">
+                        <label for="student-id">Student ID</label>
+                        <input type="text" id="student-id" name="student-id" placeholder="Student ID" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Parol</label>
+                        <input type="password" id="password" name="password" placeholder="Parol" required>
+                    </div>
+                    <button type="submit" class="login-btn">Kirish</button>
+                </form>
+                <div class="register-link">
+                    <p>Akkauntga ega emasmisiz? <a href="#">Ro'yhatdan o'ting</a></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
